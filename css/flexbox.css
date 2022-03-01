@@ -1,6 +1,6 @@
 .cabecalhoPrincipal .container {
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: space-between;
 }
 
@@ -14,10 +14,11 @@
 }
 
 .rodapePrincipal-patrocinadores-list {
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: space-around;
-    width: 75%;
+    margin-right: 5%;
+    width: 70%;
 }
 
 .rodapePrincipal-contatoForm {
@@ -25,4 +26,12 @@
 }
 .rodapePrincipal-contatoForm-fieldset{
     display: flex;
+}
+
+.rodapePrincipal-navMap-list{
+    display: flex;
+    flex-flow: column wrap;
+    height: 260px;
+    /* flex-direction: column;
+    flex-wrap: wrap; */
 }
