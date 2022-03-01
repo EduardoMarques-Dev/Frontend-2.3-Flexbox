@@ -66,6 +66,7 @@
 }
 .videoSobre-video{
     flex-grow: 1;
+    flex-shrink: 2;
 }
 .videoSobre-sobre-list{
     flex-grow: 1;
@@ -127,6 +128,14 @@
 
     .cabecalhoPrincipal-nav-link-app {
         order: -1;
+    }
+
+    .videoSobre .container {
+        flex-direction: column;
+    }
+
+    .videoSobre-video {
+        margin: 0 auto;
     }
 
 }
