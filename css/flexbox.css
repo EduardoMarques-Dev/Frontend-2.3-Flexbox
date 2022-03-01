@@ -54,6 +54,25 @@
 }
 
 
+.videoSobre .container {
+    display: flex;
+}
+
+.videoSobre-sobre {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+}
+.videoSobre-video{
+    flex-grow: 1;
+}
+.videoSobre-sobre-list{
+    flex-grow: 1;
+}
+
+
+
 @media screen and (min-width: 0) {
     .cabecalhoPrincipal .container, .cabecalhoPrincipal-nav {
         flex-direction: column;
@@ -109,4 +128,5 @@
     .cabecalhoPrincipal-nav-link-app {
         order: -1;
     }
+
 }
